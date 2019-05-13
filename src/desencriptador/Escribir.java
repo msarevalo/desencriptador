@@ -5,13 +5,13 @@ import java.util.ArrayList;
 
 public class Escribir
 {
-    public static void escribe(ArrayList<Integer> a)
+    public void escribe(ArrayList<Integer> a)
     {
         FileWriter fichero = null;
         PrintWriter pw = null;
         try
         {
-            fichero = new FileWriter("d:/prueba.txt");
+            fichero = new FileWriter("C:\\Users\\Manuel\\Desktop\\UEB\\universidad\\desencriptador\\\\primos.txt");
             pw = new PrintWriter(fichero);
 
             for (int i = 0; i < a.size(); i++)
